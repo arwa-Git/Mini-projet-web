@@ -11,6 +11,7 @@
 <script type="text/javascript" src="../assets/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript" src="../assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="../assets/js/jquery.bonsai.js"></script>
+<script type="text/javascript" src="../assets/js/imageMapResizer.min.js"></script>
 
   </head>
   <body>
@@ -49,7 +50,7 @@
           <span class="label label-info"><a href='ed255d86d697b39f8e97b851a6fb061d.html'><span class='node-icon staruml-icon icon-UMLInteraction'></span>Interaction1</a></span>
         
           <span>::</span>
-          <span class="label label-info"><a href='4f85a7f5d19946f833668ccd02d48245.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline1: visiteur</a></span>
+          <span class="label label-info"><a href='4f85a7f5d19946f833668ccd02d48245.html'><span class='node-icon staruml-icon icon-UMLLifeline'></span>Lifeline1: client</a></span>
         
       </section>
 
@@ -308,17 +309,17 @@
     <h3>Relationships</h3>
     <ul class="nav nav-list">
         
-        <li><a href='923f40597118f91c71300b4b587613c7.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir username (Lifeline1→:IU-s&#39;inscrire)</a></li>
+        <li><a href='923f40597118f91c71300b4b587613c7.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir (nom,prenom) (Lifeline1→:IU-s&#39;inscrire)</a></li>
         
-        <li><a href='481d2b935d6c6c03e3bb93b9c0426c4b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir(nom ,prenom) (Lifeline1→:IU-s&#39;inscrire)</a></li>
+        <li><a href='481d2b935d6c6c03e3bb93b9c0426c4b.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir(email) (Lifeline1→:IU-s&#39;inscrire)</a></li>
         
-        <li><a href='6d8920d552227ccebfed374fc0734e85.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir(email,mdp) (Lifeline1→:IU-s&#39;inscrire)</a></li>
+        <li><a href='6d8920d552227ccebfed374fc0734e85.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir(tel,dateN) (Lifeline1→:IU-s&#39;inscrire)</a></li>
         
-        <li><a href='8b6636dbb21220c75e2a2e880b29075f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click-btn-confirmer (Lifeline1→:IU-s&#39;inscrire)</a></li>
+        <li><a href='8b6636dbb21220c75e2a2e880b29075f.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>saisir(mdp) (Lifeline1→:IU-s&#39;inscrire)</a></li>
         
-        <li><a href='1581aef5daf7702e7a3494e16469008c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>cliquer-btn enregister client (Lifeline1→:IU-s&#39;inscrire)</a></li>
+        <li><a href='c4000b58613b91f130ce580f368d472c.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click-bt-confimer (Lifeline1→:IU-s&#39;inscrire)</a></li>
         
-        <li><a href='7d0fe5a5b5ace7bbae3450d7b75cbee1.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click-btn-enrgagence (Lifeline1→:IU-s&#39;inscrire)</a></li>
+        <li><a href='5f0915638ee7c142a5f3e1304fa660fc.html'><span class='node-icon staruml-icon icon-UMLMessage'></span>click-bt-annuler (Lifeline1→:IU-s&#39;inscrire)</a></li>
         
     </ul>
 </section>
@@ -331,6 +332,10 @@
       
 
 
+      <!-- Image Map Resizer (https://github.com/davidjbradshaw/image-map-resizer) -->
+      <script>
+      imageMapResize();
+      </script>
     </div>
   </body>
 </html>
